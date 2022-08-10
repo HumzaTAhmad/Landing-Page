@@ -78,4 +78,58 @@ a {
 img {
     max-width: 500px;
     max-height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.random-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 100px
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin: -8px;
+    padding: 125px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+}
+
+.the-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
 }
