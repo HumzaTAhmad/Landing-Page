@@ -49,7 +49,7 @@ ul {
 }
 
 .text-info {
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 10px
@@ -63,6 +63,8 @@ ul {
 
 .button-one {
     background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
     border-radius: 15px;
     padding: 10px;
     padding-left: 30px;
@@ -71,7 +73,7 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    
     color: inherit
 }
 
@@ -140,6 +142,11 @@ img {
     align-self: flex-end;
 }
 
+.sign-up-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 .sign-up-box {
     background-color: #3882F6;
     border-radius: 15px;
@@ -167,6 +174,8 @@ img {
     border-color: white;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer-section {
