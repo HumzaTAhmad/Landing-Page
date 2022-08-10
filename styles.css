@@ -9,7 +9,7 @@ body {
     color: #F9FAF8;
 }
 
-.header-links, .hero-text-secondary {
+.header-links, .hero-text-secondary{
     font-size: 18px;
     color: #E5E7EB
 }
@@ -83,12 +83,13 @@ img {
 }
 
 
-.information {
+.information, .sign-up-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 50px;
 }
 
 .random-info {
@@ -132,4 +133,43 @@ img {
 .author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    gap: 300px;
+    padding: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.sign-up-left-subbox {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-left-subbox-top {
+    font-weight: bold;
+}
+
+.button-two {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 25px;
+    margin: -8px;
 }
